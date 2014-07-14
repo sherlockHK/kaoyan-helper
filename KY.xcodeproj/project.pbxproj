@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1605CF8C19741DE500634339 /* DialogView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1605CF8B19741DE500634339 /* DialogView.m */; };
+		1605CFBB19741EC100634339 /* FifthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1605CFAE19741EC100634339 /* FifthViewController.m */; };
+		1605CFBC19741EC100634339 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1605CFB019741EC100634339 /* FirstViewController.m */; };
+		1605CFBD19741EC100634339 /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1605CFB219741EC100634339 /* FourthViewController.m */; };
+		1605CFBE19741EC100634339 /* LeftMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1605CFB419741EC100634339 /* LeftMenuViewController.m */; };
+		1605CFBF19741EC100634339 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1605CFB619741EC100634339 /* RootViewController.m */; };
+		1605CFC019741EC100634339 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1605CFB819741EC100634339 /* SecondViewController.m */; };
+		1605CFC119741EC100634339 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1605CFBA19741EC100634339 /* ThirdViewController.m */; };
+		1605CFD01974204300634339 /* ListDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1605CFCF1974204300634339 /* ListDetailViewController.m */; };
+		1605CFD71974208E00634339 /* ChecklistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1605CFD21974208E00634339 /* ChecklistViewController.m */; };
+		1605CFD81974208E00634339 /* IconPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1605CFD41974208E00634339 /* IconPickerViewController.m */; };
+		1605CFD91974208E00634339 /* ItemDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1605CFD61974208E00634339 /* ItemDetailViewController.m */; };
+		1605CFE01974209700634339 /* Checklist.m in Sources */ = {isa = PBXBuildFile; fileRef = 1605CFDB1974209700634339 /* Checklist.m */; };
+		1605CFE11974209700634339 /* ChecklistItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1605CFDD1974209700634339 /* ChecklistItem.m */; };
+		1605CFE21974209700634339 /* DataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1605CFDF1974209700634339 /* DataModel.m */; };
 		16B35DD41958539200BA6D86 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16B35DD31958539200BA6D86 /* Foundation.framework */; };
 		16B35DD61958539200BA6D86 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16B35DD51958539200BA6D86 /* CoreGraphics.framework */; };
 		16B35DD81958539200BA6D86 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16B35DD71958539200BA6D86 /* UIKit.framework */; };
@@ -19,22 +34,11 @@
 		16B35DF51958539200BA6D86 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16B35DD71958539200BA6D86 /* UIKit.framework */; };
 		16B35DFD1958539200BA6D86 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 16B35DFB1958539200BA6D86 /* InfoPlist.strings */; };
 		16B35DFF1958539200BA6D86 /* KYTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16B35DFE1958539200BA6D86 /* KYTests.m */; };
-		16B35E26195854BA00BA6D86 /* LeftMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16B35E11195854BA00BA6D86 /* LeftMenuViewController.m */; };
-		16B35E27195854BA00BA6D86 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16B35E13195854BA00BA6D86 /* RootViewController.m */; };
-		16B35E28195854BA00BA6D86 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16B35E15195854BA00BA6D86 /* FirstViewController.m */; };
-		16B35E2D195854BA00BA6D86 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16B35E1F195854BA00BA6D86 /* SecondViewController.m */; };
-		16B35E2E195854BA00BA6D86 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16B35E21195854BA00BA6D86 /* ThirdViewController.m */; };
-		16B35E2F195854BA00BA6D86 /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16B35E23195854BA00BA6D86 /* FourthViewController.m */; };
-		16B35E30195854BA00BA6D86 /* FifthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16B35E25195854BA00BA6D86 /* FifthViewController.m */; };
 		16B35E60195855E400BA6D86 /* IconCalendar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 16B35E57195855E400BA6D86 /* IconCalendar@2x.png */; };
 		16B35E61195855E400BA6D86 /* IconHome@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 16B35E58195855E400BA6D86 /* IconHome@2x.png */; };
 		16B35E63195855E400BA6D86 /* IconSettings@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 16B35E5A195855E400BA6D86 /* IconSettings@2x.png */; };
 		16B35E65195855E400BA6D86 /* MenuBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 16B35E5C195855E400BA6D86 /* MenuBackground@2x.png */; };
 		16B35E66195855E400BA6D86 /* nav_menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 16B35E5D195855E400BA6D86 /* nav_menu@2x.png */; };
-		16B35E6F1958565100BA6D86 /* ChecklistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16B35E681958565100BA6D86 /* ChecklistViewController.m */; };
-		16B35E701958565100BA6D86 /* IconPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16B35E6A1958565100BA6D86 /* IconPickerViewController.m */; };
-		16B35E711958565100BA6D86 /* ItemDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16B35E6C1958565100BA6D86 /* ItemDetailViewController.m */; };
-		16B35E721958565100BA6D86 /* ListDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16B35E6E1958565100BA6D86 /* ListDetailViewController.m */; };
 		16B35E801958574A00BA6D86 /* CalendarDateUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 16B35E7D1958574A00BA6D86 /* CalendarDateUtil.m */; };
 		16B35E811958574A00BA6D86 /* UIBaseClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 16B35E7F1958574A00BA6D86 /* UIBaseClass.m */; };
 		16B35E891958579500BA6D86 /* MZTimerLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 16B35E881958579500BA6D86 /* MZTimerLabel.m */; };
@@ -43,9 +47,6 @@
 		16B35E92195857B500BA6D86 /* UIViewController+RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 16B35E8F195857B500BA6D86 /* UIViewController+RESideMenu.m */; };
 		16B35E95195857CA00BA6D86 /* SFCountdownView.m in Sources */ = {isa = PBXBuildFile; fileRef = 16B35E94195857CA00BA6D86 /* SFCountdownView.m */; };
 		16B35E991958585E00BA6D86 /* greenRound-80-80.png in Resources */ = {isa = PBXBuildFile; fileRef = 16B35E981958585E00BA6D86 /* greenRound-80-80.png */; };
-		16B35EA019585B2E00BA6D86 /* Checklist.m in Sources */ = {isa = PBXBuildFile; fileRef = 16B35E9B19585B2E00BA6D86 /* Checklist.m */; };
-		16B35EA119585B2E00BA6D86 /* ChecklistItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 16B35E9D19585B2E00BA6D86 /* ChecklistItem.m */; };
-		16B35EA219585B2E00BA6D86 /* DataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 16B35E9F19585B2E00BA6D86 /* DataModel.m */; };
 		16B35EA4195C424200BA6D86 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16B35EA3195C424200BA6D86 /* iAd.framework */; };
 		16B5E9621961446B007F2E42 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 16B5E9611961446B007F2E42 /* MBProgressHUD.m */; };
 		16B5E97519617E45007F2E42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16B35DE51958539200BA6D86 /* Main.storyboard */; };
@@ -53,7 +54,6 @@
 		16D24E00195D1E9C003D015B /* Eyes@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 16D24DFF195D1E9C003D015B /* Eyes@2x.png */; };
 		16D24E02195D1F5E003D015B /* Experience@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 16D24E01195D1F5E003D015B /* Experience@2x.png */; };
 		16D24E04195D2111003D015B /* Book@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 16D24E03195D2111003D015B /* Book@2x.png */; };
-		16D24E07195D4D7D003D015B /* DialogView.m in Sources */ = {isa = PBXBuildFile; fileRef = 16D24E06195D4D7D003D015B /* DialogView.m */; };
 		16D24E0B195D559D003D015B /* Specilized course@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 16D24E0A195D559D003D015B /* Specilized course@2x.png */; };
 /* End PBXBuildFile section */
 
@@ -68,6 +68,36 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1605CF8B19741DE500634339 /* DialogView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DialogView.m; path = KY/DialogView.m; sourceTree = "<group>"; };
+		1605CF8D19741E2400634339 /* DialogView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DialogView.h; path = KY/DialogView.h; sourceTree = "<group>"; };
+		1605CFAD19741EC100634339 /* FifthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FifthViewController.h; path = KY/FifthViewController.h; sourceTree = "<group>"; };
+		1605CFAE19741EC100634339 /* FifthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FifthViewController.m; path = KY/FifthViewController.m; sourceTree = "<group>"; };
+		1605CFAF19741EC100634339 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FirstViewController.h; path = KY/FirstViewController.h; sourceTree = "<group>"; };
+		1605CFB019741EC100634339 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FirstViewController.m; path = KY/FirstViewController.m; sourceTree = "<group>"; };
+		1605CFB119741EC100634339 /* FourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FourthViewController.h; path = KY/FourthViewController.h; sourceTree = "<group>"; };
+		1605CFB219741EC100634339 /* FourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FourthViewController.m; path = KY/FourthViewController.m; sourceTree = "<group>"; };
+		1605CFB319741EC100634339 /* LeftMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LeftMenuViewController.h; path = KY/LeftMenuViewController.h; sourceTree = "<group>"; };
+		1605CFB419741EC100634339 /* LeftMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LeftMenuViewController.m; path = KY/LeftMenuViewController.m; sourceTree = "<group>"; };
+		1605CFB519741EC100634339 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RootViewController.h; path = KY/RootViewController.h; sourceTree = "<group>"; };
+		1605CFB619741EC100634339 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RootViewController.m; path = KY/RootViewController.m; sourceTree = "<group>"; };
+		1605CFB719741EC100634339 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SecondViewController.h; path = KY/SecondViewController.h; sourceTree = "<group>"; };
+		1605CFB819741EC100634339 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SecondViewController.m; path = KY/SecondViewController.m; sourceTree = "<group>"; };
+		1605CFB919741EC100634339 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ThirdViewController.h; path = KY/ThirdViewController.h; sourceTree = "<group>"; };
+		1605CFBA19741EC100634339 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ThirdViewController.m; path = KY/ThirdViewController.m; sourceTree = "<group>"; };
+		1605CFCE1974204300634339 /* ListDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ListDetailViewController.h; path = KY/ListDetailViewController.h; sourceTree = "<group>"; };
+		1605CFCF1974204300634339 /* ListDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ListDetailViewController.m; path = KY/ListDetailViewController.m; sourceTree = "<group>"; };
+		1605CFD11974208E00634339 /* ChecklistViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChecklistViewController.h; path = KY/checklist/ChecklistViewController.h; sourceTree = "<group>"; };
+		1605CFD21974208E00634339 /* ChecklistViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChecklistViewController.m; path = KY/checklist/ChecklistViewController.m; sourceTree = "<group>"; };
+		1605CFD31974208E00634339 /* IconPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IconPickerViewController.h; path = KY/checklist/IconPickerViewController.h; sourceTree = "<group>"; };
+		1605CFD41974208E00634339 /* IconPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IconPickerViewController.m; path = KY/checklist/IconPickerViewController.m; sourceTree = "<group>"; };
+		1605CFD51974208E00634339 /* ItemDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ItemDetailViewController.h; path = KY/checklist/ItemDetailViewController.h; sourceTree = "<group>"; };
+		1605CFD61974208E00634339 /* ItemDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ItemDetailViewController.m; path = KY/checklist/ItemDetailViewController.m; sourceTree = "<group>"; };
+		1605CFDA1974209700634339 /* Checklist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Checklist.h; path = KY/checklist/Checklist.h; sourceTree = "<group>"; };
+		1605CFDB1974209700634339 /* Checklist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Checklist.m; path = KY/checklist/Checklist.m; sourceTree = "<group>"; };
+		1605CFDC1974209700634339 /* ChecklistItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChecklistItem.h; path = KY/checklist/ChecklistItem.h; sourceTree = "<group>"; };
+		1605CFDD1974209700634339 /* ChecklistItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChecklistItem.m; path = KY/checklist/ChecklistItem.m; sourceTree = "<group>"; };
+		1605CFDE1974209700634339 /* DataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DataModel.h; path = KY/checklist/DataModel.h; sourceTree = "<group>"; };
+		1605CFDF1974209700634339 /* DataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DataModel.m; path = KY/checklist/DataModel.m; sourceTree = "<group>"; };
 		16B35DD01958539200BA6D86 /* KY.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KY.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16B35DD31958539200BA6D86 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		16B35DD51958539200BA6D86 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -85,33 +115,11 @@
 		16B35DFA1958539200BA6D86 /* KYTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KYTests-Info.plist"; sourceTree = "<group>"; };
 		16B35DFC1958539200BA6D86 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		16B35DFE1958539200BA6D86 /* KYTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KYTests.m; sourceTree = "<group>"; };
-		16B35E10195854BA00BA6D86 /* LeftMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftMenuViewController.h; sourceTree = "<group>"; };
-		16B35E11195854BA00BA6D86 /* LeftMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftMenuViewController.m; sourceTree = "<group>"; };
-		16B35E12195854BA00BA6D86 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
-		16B35E13195854BA00BA6D86 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
-		16B35E14195854BA00BA6D86 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		16B35E15195854BA00BA6D86 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		16B35E1E195854BA00BA6D86 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		16B35E1F195854BA00BA6D86 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
-		16B35E20195854BA00BA6D86 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
-		16B35E21195854BA00BA6D86 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
-		16B35E22195854BA00BA6D86 /* FourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
-		16B35E23195854BA00BA6D86 /* FourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
-		16B35E24195854BA00BA6D86 /* FifthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FifthViewController.h; sourceTree = "<group>"; };
-		16B35E25195854BA00BA6D86 /* FifthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FifthViewController.m; sourceTree = "<group>"; };
 		16B35E57195855E400BA6D86 /* IconCalendar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "IconCalendar@2x.png"; path = "resources/IconCalendar@2x.png"; sourceTree = "<group>"; };
 		16B35E58195855E400BA6D86 /* IconHome@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "IconHome@2x.png"; path = "resources/IconHome@2x.png"; sourceTree = "<group>"; };
 		16B35E5A195855E400BA6D86 /* IconSettings@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "IconSettings@2x.png"; path = "resources/IconSettings@2x.png"; sourceTree = "<group>"; };
 		16B35E5C195855E400BA6D86 /* MenuBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "MenuBackground@2x.png"; path = "resources/MenuBackground@2x.png"; sourceTree = "<group>"; };
 		16B35E5D195855E400BA6D86 /* nav_menu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "nav_menu@2x.png"; path = "resources/nav_menu@2x.png"; sourceTree = "<group>"; };
-		16B35E671958565100BA6D86 /* ChecklistViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChecklistViewController.h; path = checklist/ChecklistViewController.h; sourceTree = "<group>"; };
-		16B35E681958565100BA6D86 /* ChecklistViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChecklistViewController.m; path = checklist/ChecklistViewController.m; sourceTree = "<group>"; };
-		16B35E691958565100BA6D86 /* IconPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IconPickerViewController.h; path = checklist/IconPickerViewController.h; sourceTree = "<group>"; };
-		16B35E6A1958565100BA6D86 /* IconPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IconPickerViewController.m; path = checklist/IconPickerViewController.m; sourceTree = "<group>"; };
-		16B35E6B1958565100BA6D86 /* ItemDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ItemDetailViewController.h; path = checklist/ItemDetailViewController.h; sourceTree = "<group>"; };
-		16B35E6C1958565100BA6D86 /* ItemDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ItemDetailViewController.m; path = checklist/ItemDetailViewController.m; sourceTree = "<group>"; };
-		16B35E6D1958565100BA6D86 /* ListDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ListDetailViewController.h; path = checklist/ListDetailViewController.h; sourceTree = "<group>"; };
-		16B35E6E1958565100BA6D86 /* ListDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ListDetailViewController.m; path = checklist/ListDetailViewController.m; sourceTree = "<group>"; };
 		16B35E7C1958574A00BA6D86 /* CalendarDateUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CalendarDateUtil.h; path = vendors/calendar/CalendarDateUtil.h; sourceTree = "<group>"; };
 		16B35E7D1958574A00BA6D86 /* CalendarDateUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CalendarDateUtil.m; path = vendors/calendar/CalendarDateUtil.m; sourceTree = "<group>"; };
 		16B35E7E1958574A00BA6D86 /* UIBaseClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIBaseClass.h; path = vendors/calendar/UIBaseClass.h; sourceTree = "<group>"; };
@@ -127,12 +135,6 @@
 		16B35E93195857CA00BA6D86 /* SFCountdownView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SFCountdownView.h; path = vendors/SFCountdownView/SFCountdownView.h; sourceTree = "<group>"; };
 		16B35E94195857CA00BA6D86 /* SFCountdownView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SFCountdownView.m; path = vendors/SFCountdownView/SFCountdownView.m; sourceTree = "<group>"; };
 		16B35E981958585E00BA6D86 /* greenRound-80-80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "greenRound-80-80.png"; path = "resources/greenRound-80-80.png"; sourceTree = "<group>"; };
-		16B35E9A19585B2E00BA6D86 /* Checklist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Checklist.h; path = checklist/Checklist.h; sourceTree = "<group>"; };
-		16B35E9B19585B2E00BA6D86 /* Checklist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Checklist.m; path = checklist/Checklist.m; sourceTree = "<group>"; };
-		16B35E9C19585B2E00BA6D86 /* ChecklistItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChecklistItem.h; path = checklist/ChecklistItem.h; sourceTree = "<group>"; };
-		16B35E9D19585B2E00BA6D86 /* ChecklistItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChecklistItem.m; path = checklist/ChecklistItem.m; sourceTree = "<group>"; };
-		16B35E9E19585B2E00BA6D86 /* DataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DataModel.h; path = checklist/DataModel.h; sourceTree = "<group>"; };
-		16B35E9F19585B2E00BA6D86 /* DataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DataModel.m; path = checklist/DataModel.m; sourceTree = "<group>"; };
 		16B35EA3195C424200BA6D86 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 		16B5E9601961446B007F2E42 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBProgressHUD.h; path = vendors/MBHUD/MBProgressHUD.h; sourceTree = "<group>"; };
 		16B5E9611961446B007F2E42 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBProgressHUD.m; path = vendors/MBHUD/MBProgressHUD.m; sourceTree = "<group>"; };
@@ -140,10 +142,7 @@
 		16D24DFF195D1E9C003D015B /* Eyes@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Eyes@2x.png"; path = "resources/Eyes@2x.png"; sourceTree = "<group>"; };
 		16D24E01195D1F5E003D015B /* Experience@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Experience@2x.png"; path = "resources/Experience@2x.png"; sourceTree = "<group>"; };
 		16D24E03195D2111003D015B /* Book@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Book@2x.png"; path = "resources/Book@2x.png"; sourceTree = "<group>"; };
-		16D24E05195D4D7D003D015B /* DialogView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DialogView.h; sourceTree = "<group>"; };
-		16D24E06195D4D7D003D015B /* DialogView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DialogView.m; sourceTree = "<group>"; };
 		16D24E0A195D559D003D015B /* Specilized course@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Specilized course@2x.png"; path = "resources/Specilized course@2x.png"; sourceTree = "<group>"; };
-		16D24E0C195D55D5003D015B /* close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -249,7 +248,6 @@
 		16B35E0B195853C700BA6D86 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				16D24E0C195D55D5003D015B /* close.png */,
 				16D24E0A195D559D003D015B /* Specilized course@2x.png */,
 				16D24E03195D2111003D015B /* Book@2x.png */,
 				16D24E01195D1F5E003D015B /* Experience@2x.png */,
@@ -267,14 +265,14 @@
 		16B35E0C195853C800BA6D86 /* General */ = {
 			isa = PBXGroup;
 			children = (
-				16B35E9A19585B2E00BA6D86 /* Checklist.h */,
-				16B35E9B19585B2E00BA6D86 /* Checklist.m */,
-				16B35E9C19585B2E00BA6D86 /* ChecklistItem.h */,
-				16B35E9D19585B2E00BA6D86 /* ChecklistItem.m */,
-				16B35E9E19585B2E00BA6D86 /* DataModel.h */,
-				16B35E9F19585B2E00BA6D86 /* DataModel.m */,
-				16D24E05195D4D7D003D015B /* DialogView.h */,
-				16D24E06195D4D7D003D015B /* DialogView.m */,
+				1605CFDA1974209700634339 /* Checklist.h */,
+				1605CFDB1974209700634339 /* Checklist.m */,
+				1605CFDC1974209700634339 /* ChecklistItem.h */,
+				1605CFDD1974209700634339 /* ChecklistItem.m */,
+				1605CFDE1974209700634339 /* DataModel.h */,
+				1605CFDF1974209700634339 /* DataModel.m */,
+				1605CF8D19741E2400634339 /* DialogView.h */,
+				1605CF8B19741DE500634339 /* DialogView.m */,
 				16B35DE51958539200BA6D86 /* Main.storyboard */,
 				16B35E0F1958545D00BA6D86 /* Controllers */,
 			);
@@ -305,28 +303,28 @@
 		16B35E0F1958545D00BA6D86 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				16B35E10195854BA00BA6D86 /* LeftMenuViewController.h */,
-				16B35E11195854BA00BA6D86 /* LeftMenuViewController.m */,
-				16B35E12195854BA00BA6D86 /* RootViewController.h */,
-				16B35E13195854BA00BA6D86 /* RootViewController.m */,
-				16B35E14195854BA00BA6D86 /* FirstViewController.h */,
-				16B35E15195854BA00BA6D86 /* FirstViewController.m */,
-				16B35E6D1958565100BA6D86 /* ListDetailViewController.h */,
-				16B35E6E1958565100BA6D86 /* ListDetailViewController.m */,
-				16B35E691958565100BA6D86 /* IconPickerViewController.h */,
-				16B35E6A1958565100BA6D86 /* IconPickerViewController.m */,
-				16B35E671958565100BA6D86 /* ChecklistViewController.h */,
-				16B35E681958565100BA6D86 /* ChecklistViewController.m */,
-				16B35E6B1958565100BA6D86 /* ItemDetailViewController.h */,
-				16B35E6C1958565100BA6D86 /* ItemDetailViewController.m */,
-				16B35E1E195854BA00BA6D86 /* SecondViewController.h */,
-				16B35E1F195854BA00BA6D86 /* SecondViewController.m */,
-				16B35E20195854BA00BA6D86 /* ThirdViewController.h */,
-				16B35E21195854BA00BA6D86 /* ThirdViewController.m */,
-				16B35E22195854BA00BA6D86 /* FourthViewController.h */,
-				16B35E23195854BA00BA6D86 /* FourthViewController.m */,
-				16B35E24195854BA00BA6D86 /* FifthViewController.h */,
-				16B35E25195854BA00BA6D86 /* FifthViewController.m */,
+				1605CFB519741EC100634339 /* RootViewController.h */,
+				1605CFB619741EC100634339 /* RootViewController.m */,
+				1605CFB319741EC100634339 /* LeftMenuViewController.h */,
+				1605CFB419741EC100634339 /* LeftMenuViewController.m */,
+				1605CFAF19741EC100634339 /* FirstViewController.h */,
+				1605CFB019741EC100634339 /* FirstViewController.m */,
+				1605CFD11974208E00634339 /* ChecklistViewController.h */,
+				1605CFD21974208E00634339 /* ChecklistViewController.m */,
+				1605CFD31974208E00634339 /* IconPickerViewController.h */,
+				1605CFD41974208E00634339 /* IconPickerViewController.m */,
+				1605CFD51974208E00634339 /* ItemDetailViewController.h */,
+				1605CFD61974208E00634339 /* ItemDetailViewController.m */,
+				1605CFCE1974204300634339 /* ListDetailViewController.h */,
+				1605CFCF1974204300634339 /* ListDetailViewController.m */,
+				1605CFB719741EC100634339 /* SecondViewController.h */,
+				1605CFB819741EC100634339 /* SecondViewController.m */,
+				1605CFB919741EC100634339 /* ThirdViewController.h */,
+				1605CFBA19741EC100634339 /* ThirdViewController.m */,
+				1605CFB119741EC100634339 /* FourthViewController.h */,
+				1605CFB219741EC100634339 /* FourthViewController.m */,
+				1605CFAD19741EC100634339 /* FifthViewController.h */,
+				1605CFAE19741EC100634339 /* FifthViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -492,31 +490,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16B35E30195854BA00BA6D86 /* FifthViewController.m in Sources */,
-				16B35E2F195854BA00BA6D86 /* FourthViewController.m in Sources */,
+				1605CFC019741EC100634339 /* SecondViewController.m in Sources */,
+				1605CFBB19741EC100634339 /* FifthViewController.m in Sources */,
 				16B35E801958574A00BA6D86 /* CalendarDateUtil.m in Sources */,
-				16B35E2D195854BA00BA6D86 /* SecondViewController.m in Sources */,
-				16B35E721958565100BA6D86 /* ListDetailViewController.m in Sources */,
-				16B35E711958565100BA6D86 /* ItemDetailViewController.m in Sources */,
 				16B35DE41958539200BA6D86 /* AppDelegate.m in Sources */,
 				16B35E891958579500BA6D86 /* MZTimerLabel.m in Sources */,
+				1605CFE11974209700634339 /* ChecklistItem.m in Sources */,
+				1605CFC119741EC100634339 /* ThirdViewController.m in Sources */,
 				16B35E811958574A00BA6D86 /* UIBaseClass.m in Sources */,
-				16B35EA119585B2E00BA6D86 /* ChecklistItem.m in Sources */,
+				1605CFD81974208E00634339 /* IconPickerViewController.m in Sources */,
+				1605CFBC19741EC100634339 /* FirstViewController.m in Sources */,
 				16B35E90195857B500BA6D86 /* RECommonFunctions.m in Sources */,
+				1605CFBD19741EC100634339 /* FourthViewController.m in Sources */,
 				16B35E91195857B500BA6D86 /* RESideMenu.m in Sources */,
-				16B35E2E195854BA00BA6D86 /* ThirdViewController.m in Sources */,
-				16B35E26195854BA00BA6D86 /* LeftMenuViewController.m in Sources */,
-				16B35E28195854BA00BA6D86 /* FirstViewController.m in Sources */,
-				16B35E27195854BA00BA6D86 /* RootViewController.m in Sources */,
-				16B35E701958565100BA6D86 /* IconPickerViewController.m in Sources */,
+				1605CFE21974209700634339 /* DataModel.m in Sources */,
+				1605CFBF19741EC100634339 /* RootViewController.m in Sources */,
+				1605CFBE19741EC100634339 /* LeftMenuViewController.m in Sources */,
 				16B5E9621961446B007F2E42 /* MBProgressHUD.m in Sources */,
 				16B35DE01958539200BA6D86 /* main.m in Sources */,
-				16D24E07195D4D7D003D015B /* DialogView.m in Sources */,
-				16B35E6F1958565100BA6D86 /* ChecklistViewController.m in Sources */,
-				16B35EA219585B2E00BA6D86 /* DataModel.m in Sources */,
+				1605CFE01974209700634339 /* Checklist.m in Sources */,
+				1605CF8C19741DE500634339 /* DialogView.m in Sources */,
 				16B35E95195857CA00BA6D86 /* SFCountdownView.m in Sources */,
+				1605CFD01974204300634339 /* ListDetailViewController.m in Sources */,
 				16B35E92195857B500BA6D86 /* UIViewController+RESideMenu.m in Sources */,
-				16B35EA019585B2E00BA6D86 /* Checklist.m in Sources */,
+				1605CFD71974208E00634339 /* ChecklistViewController.m in Sources */,
+				1605CFD91974208E00634339 /* ItemDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

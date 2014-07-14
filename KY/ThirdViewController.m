@@ -21,8 +21,7 @@
     [super viewDidLoad];
     
     self.experienceView.delegate = self;
-   NSURL *experienceURL = [NSURL URLWithString:@"http://3g.exam8.com/kaoyan/193.0/"]; //@"http://m.kaoyan.com/?src=http://www.kaoyan.com/s/news/#m/http://www.kaoyan.com/s/news/"
-
+   NSURL *experienceURL = [NSURL URLWithString:@"http://3g.exam8.com/kaoyan/193.0/"];
     NSURLRequest *experienceRequest = [NSURLRequest requestWithURL:experienceURL];
     [self.experienceView loadRequest:experienceRequest];
 }
